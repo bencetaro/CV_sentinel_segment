@@ -1,0 +1,17 @@
+Creation of training/validation samples:
+
+
+I. Training images
+I created 201x201 pixel rectangles on Sentinel 2 TCI images for the samples. In this format:
+
+- images output: .jpg, uint8, RGB
+
+II. Training labels
+Long process, so in general I made NDVI (good for masking out artifictial, and water areas) and 
+NDWI (does what ndvi plus road segments can be masked out) rasters and binary classified them (threshold 0.33 and 0.35). 
+Then made some geoprocess, and classification in the end to create the labels.
+
+- labels output: .png, uint8, 1 chanel: 1-forest 2-bg
+
+
+

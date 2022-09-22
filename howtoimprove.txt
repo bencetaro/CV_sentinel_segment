@@ -1,0 +1,10 @@
+Possible improvements could be:
+
+1. One of the problems is, that the samples are coming from Serbia, Czechia, Romania, and the target (test) area was Hungary.
+   Another one is that the images were taken in different time, with different instrument from Sentinel.
+--> All these together causes that only bigger extents of forests are classified correctly, and smaller bunch of pixels or even distinct pixels (often found inside cities) are not.
+--> So it could be solved by taking extra samples from the same images that will be classified later.
+
+2. Training the model on GPU, and additional transformations, hyperparameter tuning etc. could also improve the results.
+
+3. Maybe better results could be achieved by using NDVI as training samples

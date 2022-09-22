@@ -1,0 +1,7 @@
+Testing Sentinel 2 TCI-s on model:
+
+1. Use crop_to_extent to create an equally dividable image.
+2. Use split_to_tiles to split the image for the preferred input to the model.
+3. Run model.
+4. Use concat tiles to concatanate the reulted predictions.
+5. Finally run georef_parsing to parse the projection and extent, same as the corresponting TCI has.
