@@ -12,3 +12,7 @@ Using this folders contents you can use your own certain Sentinel TCI image to t
 3. Run model.
 4. Use concat tiles to concatanate the resulted predictions.
 5. Finally run georef_parsing to parse the projection and extent, same as the corresponting TCI has.
+
+... And here is the final result, still there are things to improve (stuff I included in howtoimprove.txt)
+
+![result_of_segmentation](https://user-images.githubusercontent.com/113855055/193895247-1d26a7ff-115f-4dc7-bac5-b9b1936e7d74.JPG)
