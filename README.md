@@ -1,11 +1,11 @@
 # CNN binary segmentation model, used on Sentinel 2 data.
-## Sampling
+## Sampling folder
 This explains how the samples were taken from Sentinel 2 TCI imagery.
 
-## Unet
+## Unet folder
 This includes the samples, the UNET model and the notebook I made to train a CNN for the segmentation task. 
 
-## Production
+## Production folder
 In the following steps I tested the model with a Sentinel TCI image.
 1. Used crop_to_extent to create an equally dividable image.
 2. Used split_to_tiles to split the image for the preferred input to the model.
